@@ -1,0 +1,101 @@
+# -------------------------
+# Python & Flask
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+
+# Ignore model cache downloaded from HuggingFace
+huggingface/
+.cache/
+transformers_cache/
+~/.cache/
+
+# Virtual environments
+venv/
+env/
+backend/venv/
+frontend/venv/
+
+# IDE / Editor / OS
+.vscode/
+.idea/
+*.DS_Store
+*.swp
+
+# -------------------------
+# Node / Frontend
+# -------------------------
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Production build folders
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# -------------------------
+# Environment & Secrets
+# -------------------------
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# -------------------------
+# Local files & misc
+# -------------------------
+*.sqlite3
+*.db
+*.sqlite
+*.pid
+*.seed
+
+# Bytecode cache
+*.pyc
+*.pyo
+
+# Ignore large datasets and model folders
+datasets/
+model/*.bin
+model/*.pt
+model/*.pth
+
+# Ignore SymSpell dictionary if downloaded automatically
+backend/frequency_dictionary_en_82_765.txt
+
+# -------------------------
+# MacOS System
+# -------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Course-feedback.py
+
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Model folders (VERY IMPORTANT)
+grammar-model/
+backend/grammar-model/
+
+# Colab
+.ipynb_checkpoints/
+
+# Build
+.dist/
